@@ -7,29 +7,29 @@ export const navbarData: INavbarData[] = [
         label: 'Dashboard'
     },
     {
-        routeLink: 'products',
-        icon: 'fal fa-box-open',
-        label: 'Products',
+        routeLink: 'devices',
+        icon: 'fal fa-plug',
+        label: 'Devices',
         items: [
             {
-                routeLink: 'products/level1.1',
-                label: 'Level 1.1',
+                routeLink: 'devices/level1.1',
+                label: 'Songkhla',
                 items: [
                     {
                         routeLink: 'products/level2.1',
-                        label: 'Level 2.1',
+                        label: 'PSU',
                     },
                     {
                         routeLink: 'products/level2.2',
-                        label: 'Level 2.2',
+                        label: 'RUTS',
                         items: [
                             {
                                 routeLink: 'products/level3.1',
-                                label: 'Level 3.1'
+                                label: 'Building 62'
                             },
                             {
                                 routeLink: 'products/level3.2',
-                                label: 'Level 3.2'
+                                label: 'Building 50'
                             }
                         ]
                     }
@@ -37,54 +37,55 @@ export const navbarData: INavbarData[] = [
             },
             {
                 routeLink: 'products/level1.2',
-                label: 'Level 1.2',
+                label: 'Bangkok',
             }
         ]
     },
-    {
-        routeLink: 'statistics',
-        icon: 'fal fa-chart-bar',
-        label: 'Statistics'
-    },
-    {
-        routeLink: 'coupens',
-        icon: 'fal fa-tags',
-        label: 'Coupens',
-        items: [
-            {
-                routeLink: 'coupens/list',
-                label: 'List Coupens'
-            },
-            {
-                routeLink: 'coupens/create',
-                label: 'Create Coupens'
-            }
-        ]
-    },
+    // {
+    //     routeLink: 'statistics',
+    //     icon: 'fal fa-chart-bar',
+    //     label: 'Statistics'
+    // },
+    // {
+    //     routeLink: 'coupens',
+    //     icon: 'fal fa-tags',
+    //     label: 'Coupens',
+    //     items: [
+    //         {
+    //             routeLink: 'coupens/list',
+    //             label: 'List Coupens'
+    //         },
+    //         {
+    //             routeLink: 'coupens/create',
+    //             label: 'Create Coupens'
+    //         }
+    //     ]
+    // },
     {
         routeLink: 'pages',
-        icon: 'fal fa-file',
-        label: 'Pages'
+        icon: 'fal fa-handshake',
+        label: 'About us'
     },
-    {
-        routeLink: 'media',
-        icon: 'fal fa-camera',
-        label: 'Media'
-    },
+    // {
+    //     routeLink: 'media',
+    //     icon: 'fal fa-group',
+    //     label: 'About us'
+    // },
     {
         routeLink: 'settings',
-        icon: 'fal fa-cog',
-        label: 'Settings',
-        expanded: true,
-        items: [
-            {
-                routeLink: 'settings/profile',
-                label: 'Profile'
-            },
-            {
-                routeLink: 'settings/customize',
-                label: 'Customize'
-            }
-        ]
+        icon: 'fal fa-user',
+        label: 'Profile',
+        // expanded: true,
+        // items: [
+        //     {
+        //         routeLink: 'settings/profile',
+        //         label: 'Profile',
+        //         icon: 'fa-user-o',
+        //     },
+        //     {
+        //         routeLink: 'settings/customize',
+        //         label: 'Customize'
+        //     }
+        // ]
     },
 ];
