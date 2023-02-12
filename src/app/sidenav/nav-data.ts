@@ -4,7 +4,7 @@ export const navbarData: INavbarData[] = [
     {
         routeLink: 'dashboard',
         icon: 'fal fa-home',
-        label: 'Dashboard'
+        label: 'แดชบอร์ด'
     },
  
     // {
@@ -45,7 +45,7 @@ export const navbarData: INavbarData[] = [
     {
         routeLink: 'devices',
         icon: 'fal fa-plug',
-        label: 'Devices'
+        label: 'อุปกรณ์'
     },
     // {
     //     routeLink: 'coupens',
@@ -65,7 +65,7 @@ export const navbarData: INavbarData[] = [
     {
         routeLink: 'about-us',
         icon: 'fal fa-handshake',
-        label: 'About us'
+        label: 'เกี่ยวกับเรา'
     },
     
     // {
@@ -76,7 +76,7 @@ export const navbarData: INavbarData[] = [
     {
         routeLink: 'profile',
         icon: 'fal fa-user',
-        label: 'Profile',
+        label: 'โปรไฟล์',
         // expanded: true,
         // items: [
         //     {
@@ -94,6 +94,6 @@ export const navbarData: INavbarData[] = [
     {
         routeLink: 'logout',
         icon: 'fal  fa-sign-out',
-        label: 'Log out'
+        label: 'ออกจากระบบ'
     },
 ];
