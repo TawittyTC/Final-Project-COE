@@ -66,6 +66,7 @@ export const navbarData: INavbarData[] = [
         icon: 'fal fa-handshake',
         label: 'About us'
     },
+    
     // {
     //     routeLink: 'media',
     //     icon: 'fal fa-group',
@@ -87,5 +88,10 @@ export const navbarData: INavbarData[] = [
         //         label: 'Customize'
         //     }
         // ]
+    },
+    {
+        routeLink: 'logout',
+        icon: 'fal  fa-sign-out',
+        label: 'Log out'
     },
 ];

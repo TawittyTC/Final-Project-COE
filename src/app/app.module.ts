@@ -18,6 +18,7 @@ import { OverlayModule } from '@angular/cdk/overlay'
 import { CdkMenuModule } from '@angular/cdk/menu'
 // Import the module from the SDK
 import { AuthModule } from '@auth0/auth0-angular';
+import { LogoutComponent } from './logout/logout.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,6 +31,7 @@ import { AuthModule } from '@auth0/auth0-angular';
     SettingsComponent,
     SublevelMenuComponent,
     HeaderComponent,
+    LogoutComponent,
   ],
   imports: [
     BrowserModule,
