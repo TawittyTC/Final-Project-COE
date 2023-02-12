@@ -1,5 +1,5 @@
 .sidenav {
-    background: #041c53;
+    background: #ffffff;
     transition: all .5s ease;
     position: fixed;
     z-index: 2;
@@ -31,7 +31,7 @@
             margin-left: 1.5rem;
             font-size: 24px;
             font-weight: 700;
-            color: #fff;
+            color: rgb(00, 30, 84)
         }
 
         .btn-close {
@@ -44,7 +44,7 @@
             border: none;
 
             .fa-times {
-                color: #fff;
+                color: rgb(00, 30, 84);
                 font-size: 24px;
             }
         }
@@ -72,7 +72,7 @@
             display: flex;
             align-items: center;
             height: 3rem;
-            color: #f3f3f3;
+            color: #000;
             text-decoration: none;
             border-radius: 0.625rem;
             transition: all .3s ease;
@@ -91,8 +91,8 @@
         }
 
         .sidenav-nav-link:hover {
-            background-color: #fff;
-            color: #000;
+            background-color: rgb(224, 224, 224);
+            color: #fff;
 
             .menu-collapse-icon {
                 color: #000;
@@ -102,7 +102,7 @@
 }
 
 .active {
-    background-color: #fff;
+    background-color: rgb(226, 226, 226);
 
     .menu-collapse-icon,
     .sidenav-link-icon,

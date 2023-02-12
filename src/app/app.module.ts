@@ -19,6 +19,9 @@ import { CdkMenuModule } from '@angular/cdk/menu'
 // Import the module from the SDK
 import { AuthModule } from '@auth0/auth0-angular';
 import { LogoutComponent } from './logout/logout.component';
+import { DevicesComponent } from './devices/devices.component';
+import { AboutUsComponent } from './about-us/about-us.component';
+import { ProfileComponent } from './profile/profile.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,6 +35,9 @@ import { LogoutComponent } from './logout/logout.component';
     SublevelMenuComponent,
     HeaderComponent,
     LogoutComponent,
+    DevicesComponent,
+    AboutUsComponent,
+    ProfileComponent,
   ],
   imports: [
     BrowserModule,
